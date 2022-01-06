@@ -15,3 +15,46 @@ canvas {
     height: 100%;
 
 }
+
+
+#login {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2em;
+    border-radius: 10px;
+    border: #cccccc solid 2px;
+
+}
+
+
+#welcometext
+{
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+#nametext
+{
+    color: red;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+#welcome
+{
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size:100px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
